@@ -1,3 +1,5 @@
 com\clc\atcrowdfunding\util\AjaxResult.class
 com\clc\atcrowdfunding\util\Const.class
+com\clc\atcrowdfunding\util\StringUtil.class
+com\clc\atcrowdfunding\util\MD5Util.class
 com\clc\atcrowdfunding\util\LoginFailException.class
