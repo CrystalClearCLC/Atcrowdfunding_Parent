@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/mvc
+http://www.springframework.org/schema/mvc/spring-mvc.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+    <!-- 扫描controller的注解，别的不扫描 -->
+    <context:component-scan base-package="com.clc.atcrowdfunding" use-default-filters="false">
+        <!--use-default-filters="false"不配置添加不上事务-->
+        <context:include-filter type="annotation"
+                                expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+    <!-- 配置视图解析器 -->
+   <!-- <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        &lt;!&ndash; JSP文件所在的目录 &ndash;&gt;
+        <property name="prefix" value="/WEB-INF/pages/" />
+        &lt;!&ndash; 文件的后缀名 &ndash;&gt;
+        <property name="suffix" value=".jsp" />
+    </bean>-->
+    <!-- 设置静态资源不过滤 -->
+    <!--<mvc:resources location="/css/" mapping="/css/**" />
+    <mvc:resources location="/images/" mapping="/images/**" />
+    <mvc:resources location="/js/" mapping="/js/**" />-->
+    <mvc:resources location="/jquery/" mapping="/jquery/**" />
+
+    <!-- 开启对SpringMVC注解的支持 -->
+    <mvc:annotation-driven />
+    <!-- 配置视图解析器 -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"></property>
+        <property name="prefix" value="/WEB-INF/jsp/"></property>
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+    <!--一异常解析器-->
+    <bean id="exceptionResolver"
+          class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <!--<property name="exceptionAttribute" value="exception"></property>-->
+        <!--异常解析器捕获到异常后将异常信息放到request域  名称默认为value="exception"-->
+        <property name="exceptionMappings">
+            <props>
+                <prop key="java.lang.Exception">error/error</prop>
+                <prop key="com.clc.atcrowdfunding.util.LoginFailException">login</prop>
+            </props>
+        </property>
+    </bean>
+
+
+    <!--文件上传-->
+   <!-- <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver" p:defaultEncoding="UTF-8">
+        <property name="maxUploadSize" value="2097152"/>
+        <property name="resolveLazily" value="true"/>
+    </bean>
+    <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" >
+        <property name="messageConverters">
+            <list>
+                <bean class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
+                    <property name="supportedMediaTypes">
+                        <list>
+                            <value>application/json;charset=UTF-8</value>
+                        </list>
+                    </property>
+                </bean>
+            </list>
+        </property>
+    </bean>-->
+</beans>

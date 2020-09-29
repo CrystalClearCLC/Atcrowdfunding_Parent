@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+  <display-name>Archetype Created Web Application</display-name>
+
+  <!-- 配置加载类路径的配置文件 -->
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath*:Spring/applicationContext.xml</param-value>
+  </context-param>
+
+  <!-- 配置解决中文乱码的过滤器 -->
+  <filter>
+    <filter-name>characterEncodingFilter</filter-name>
+    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>UTF-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>characterEncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+    <!--<dispatcher>FORWARD</dispatcher>  开启对Forward转发进项二次过滤
+   <dispatcher>REQUEST</dispatcher>  默认只对request请求进行过滤-->
+  </filter-mapping>
+
+  <!-- 支持RESTful风格，将POST请求转换为PUT或DELETE请求
+  huiduqv隐含参数："_method"-->
+  <filter>
+    <filter-name>HiddenHttpMethodFilter</filter-name>
+    <filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>HiddenHttpMethodFilter</filter-name>
+    <servlet-name>dispatcherServlet</servlet-name><!--配置的servlet执行之前进行过滤-->
+  </filter-mapping>
+
+  <!-- 配置Spring的监听器 -->
+  <!-- 监听器
+      创建Sring框架的IOC容器对象，放在application域
+      ApplicationContext ioc=WebApplicationContextUtils.getWebApplicationContext(application);
+
+      ServletContextListener监听器接口
+      监听创建和销毁
+            如果监听到ServletContext创建（服务器启动），就会创建IOC容器（XML）
+            如果监听到ServletContext销毁（服务器停止，或卸载项目），就会销毁IOC容器
+   -->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
+  <listener>
+    <listener-class>com.clc.atcrowdfunding.listener.StartSystemListener</listener-class>
+  </listener>
+
+  <!-- 配置前端控制器：服务器启动必须加载，需要加载springmvc.xml配置文件 -->
+  <servlet>
+    <servlet-name>dispatcherServlet</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <!-- 配置初始化参数，创建完DispatcherServlet对象，加载springmvc.xml配置文件 -->
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:Spring/springmvc.xml</param-value>
+    </init-param>
+    <!-- 服务器启动的时候，让DispatcherServlet对象创建 -->
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dispatcherServlet</servlet-name>
+
+    <!---->
+   <!-- <url-pattern>/</url-pattern>-->
+    <url-pattern>*.htm</url-pattern>
+    <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+
+  <!-- 会话超时时间 -->
+  <session-config>
+    <session-timeout>60</session-timeout>
+  </session-config>
+</web-app>
