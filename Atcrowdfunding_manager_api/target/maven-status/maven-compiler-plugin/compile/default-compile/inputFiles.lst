@@ -1,4 +1,4 @@
 G:\WorkSpaces\IDEAWorkSpace\Atcrowdfunding_Parent\Atcrowdfunding_manager_api\src\main\java\com\clc\atcrowdfunding\manager\dao\UserMapper.java
+G:\WorkSpaces\IDEAWorkSpace\Atcrowdfunding_Parent\Atcrowdfunding_manager_api\src\main\java\com\clc\atcrowdfunding\manager\dao\RegisterDAO.java
 G:\WorkSpaces\IDEAWorkSpace\Atcrowdfunding_Parent\Atcrowdfunding_manager_api\src\main\java\com\clc\atcrowdfunding\manager\service\UserService.java
-G:\WorkSpaces\IDEAWorkSpace\Atcrowdfunding_Parent\Atcrowdfunding_manager_api\src\main\java\com\clc\atcrowdfunding\manager\dao\AccountDao.java
-G:\WorkSpaces\IDEAWorkSpace\Atcrowdfunding_Parent\Atcrowdfunding_manager_api\src\main\java\com\clc\atcrowdfunding\manager\service\AccountService.java
+G:\WorkSpaces\IDEAWorkSpace\Atcrowdfunding_Parent\Atcrowdfunding_manager_api\src\main\java\com\clc\atcrowdfunding\manager\service\RegisterService.java

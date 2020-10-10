@@ -4,6 +4,7 @@ import com.clc.atcrowdfunding.bean.User;
 import com.clc.atcrowdfunding.manager.service.UserService;
 import com.clc.atcrowdfunding.util.AjaxResult;
 import com.clc.atcrowdfunding.util.Const;
+import com.clc.atcrowdfunding.util.MD5Util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -53,7 +54,7 @@ public class DispatcherController {
             result = new AjaxResult();
             Map<String,Object> paramMap =new HashMap<String,Object>();
             paramMap.put("username",username);
-            paramMap.put("password",password);
+            paramMap.put("password", MD5Util.digest(password));
             paramMap.put("type",type);
             User user=userService.queryUserLogin(paramMap);
 

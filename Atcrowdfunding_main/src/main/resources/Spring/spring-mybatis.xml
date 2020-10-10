@@ -28,11 +28,19 @@
     <!-- 配置SqlSession的工厂 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />
+       <!-- <property name="configLocation" value="Mybatis/mybatis-config.xml"/>-->
+       <!-- <property name="mapperLocations">
+            <list>
+                <value>classpath:mapper/*.xml</value>
+            </list>
+        </property>-->
+        <!-- mapper扫描 -->
     </bean>
 
-    <!-- 配置扫描dao的包 --><!-- 扫描Mapper映射配置 -->
+    <!--配置扫描dao的包  扫描Mapper映射配置-->
     <bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.clc.atcrowdfunding.*.dao"/>
+        <!--<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>-->
     </bean>
 
 

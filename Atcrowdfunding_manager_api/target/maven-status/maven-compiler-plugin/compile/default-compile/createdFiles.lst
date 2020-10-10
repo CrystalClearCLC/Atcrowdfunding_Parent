@@ -1,4 +1,4 @@
-com\clc\atcrowdfunding\manager\dao\AccountDao.class
+com\clc\atcrowdfunding\manager\dao\RegisterDAO.class
+com\clc\atcrowdfunding\manager\service\RegisterService.class
 com\clc\atcrowdfunding\manager\dao\UserMapper.class
 com\clc\atcrowdfunding\manager\service\UserService.class
-com\clc\atcrowdfunding\manager\service\AccountService.class

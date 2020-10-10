@@ -13,13 +13,99 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef999faf-d536-4768-8c61-d110e82c13c7" name="Default" comment="异步请求登录">
-      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_common/src/main/java/com/clc/atcrowdfunding/util/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_common/src/main/java/com/clc/atcrowdfunding/util/StringUtil.java" afterDir="false" />
+    <list default="true" id="ef999faf-d536-4768-8c61-d110e82c13c7" name="Default" comment="regist">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_common/src/test/java/MD5Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_common/target/surefire-reports/MD5Test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_common/target/surefire-reports/TEST-MD5Test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_main/src/main/Java/com/clc/atcrowdfunding/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/tomcat/logs/access_log.2020-10-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_manager_api/src/main/java/com/clc/atcrowdfunding/manager/dao/RegisterDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_manager_api/src/main/java/com/clc/atcrowdfunding/manager/service/RegisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/src/main/java/com/clc/atcrowdfunding/manager/service/impl/RegisterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/src/main/resources/mapper/RegisterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/target/classes/mapper/RegisterMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_bean/src/main/java/com/clc/atcrowdfunding/bean/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_bean/target/Atcrowdfunding_bean-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_bean/target/Atcrowdfunding_bean-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_bean/target/classes/com/clc/atcrowdfunding/bean/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_bean/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_bean/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_bean/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_bean/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_bean/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_bean/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_common/target/Atcrowdfunding_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_common/target/Atcrowdfunding_common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/src/main/Java/com/clc/atcrowdfunding/controller/DispatcherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/src/main/Java/com/clc/atcrowdfunding/controller/DispatcherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/src/main/Java/com/clc/atcrowdfunding/test/mabatisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/src/main/Java/com/clc/atcrowdfunding/test/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/src/main/resources/Mybatis/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/src/main/resources/Mybatis/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/src/main/resources/Mybatis/mapper-user.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/src/main/resources/Spring/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/src/main/resources/Spring/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/src/main/resources/config/jdbcConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/src/main/resources/config/jdbcConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/src/main/resources/config/jdbcConfig2.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/src/main/webapp/WEB-INF/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main.war" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/classes/Mybatis/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/classes/Mybatis/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/classes/Mybatis/mapper-user.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/classes/Spring/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/classes/Spring/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/classes/com/clc/atcrowdfunding/controller/DispatcherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/classes/com/clc/atcrowdfunding/controller/DispatcherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/classes/com/clc/atcrowdfunding/test/mabatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/classes/com/clc/atcrowdfunding/test/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/classes/config/jdbcConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/classes/config/jdbcConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/classes/config/jdbcConfig2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/jsp/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/Atcrowdfunding_bean-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/Atcrowdfunding_bean-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/Atcrowdfunding_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/Atcrowdfunding_common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/Atcrowdfunding_manager_api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/Atcrowdfunding_manager_api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/Atcrowdfunding_manager_impl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/Atcrowdfunding_manager_impl-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/Atcrowdfunding_potal_api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/Atcrowdfunding_potal_api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/Atcrowdfunding_potal_impl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/Atcrowdfunding_potal_impl-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/jackson-annotations-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/jackson-core-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/jackson-databind-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/Atcrowdfunding_main/WEB-INF/lib/mysql-connector-java-5.1.44.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/classes/Mybatis/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/classes/Mybatis/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/classes/Mybatis/mapper-user.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/classes/Spring/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/classes/Spring/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/classes/com/clc/atcrowdfunding/controller/DispatcherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/classes/com/clc/atcrowdfunding/controller/DispatcherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/classes/com/clc/atcrowdfunding/test/mabatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/classes/com/clc/atcrowdfunding/test/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/classes/config/jdbcConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/classes/config/jdbcConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/classes/config/jdbcConfig2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_api/src/main/java/com/clc/atcrowdfunding/manager/dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_api/src/main/java/com/clc/atcrowdfunding/manager/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_api/target/Atcrowdfunding_manager_api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_manager_api/target/Atcrowdfunding_manager_api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_api/target/classes/com/clc/atcrowdfunding/manager/dao/AccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_api/target/classes/com/clc/atcrowdfunding/manager/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_manager_api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_manager_api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_manager_api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/src/main/java/com/clc/atcrowdfunding/manager/controller/AccountConroller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/src/main/java/com/clc/atcrowdfunding/manager/service/impl/AcountServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/src/main/resources/mybaits/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/target/Atcrowdfunding_manager_impl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/target/Atcrowdfunding_manager_impl-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/target/classes/com/clc/atcrowdfunding/manager/controller/AccountConroller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/target/classes/com/clc/atcrowdfunding/manager/service/impl/AcountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/target/classes/mybaits/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_manager_impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_potal_api/target/Atcrowdfunding_potal_api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_potal_api/target/Atcrowdfunding_potal_api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_potal_api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_potal_api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_potal_impl/target/Atcrowdfunding_potal_impl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_potal_impl/target/Atcrowdfunding_potal_impl-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atcrowdfunding_potal_impl/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Atcrowdfunding_potal_impl/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +116,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Jsp File" />
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -63,25 +149,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Atcrowdfunding_manager_api/src/main/java/com/clc/atcrowdfunding/manager/service" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../travel_ssm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/Atcrowdfunding_manager_impl/src/main/java/com.clc.atcrowdfunding.manager.controller" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\WorkSpaces\IDEAWorkSpace\Atcrowdfunding_Parent\Atcrowdfunding_main\src\main\resources\test" />
       <recent name="G:\IDEAWrokSpace\Atcrowdfunding_Parent\Atcrowdfunding_main\src\main\webapp\WEB-INF\jsp" />
       <recent name="G:\IDEAWrokSpace\Atcrowdfunding_Parent\Atcrowdfunding_main\src\main\resources\Mybatis" />
       <recent name="G:\IDEAWrokSpace\Atcrowdfunding_Parent\Atcrowdfunding_main\src\main\webapp\WEB-INF" />
       <recent name="G:\IDEAWrokSpace\Atcrowdfunding_Parent\Atcrowdfunding_main\src\main\webapp" />
-      <recent name="G:\IDEAWrokSpace\Atcrowdfunding_Parent\Atcrowdfunding_main\src\main\resources\Spring" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\IDEAWrokSpace\Atcrowdfunding_Parent\Atcrowdfunding_main\src\main\webapp\WEB-INF\jsp" />
@@ -91,25 +180,49 @@
       <recent name="G:\IDEAWrokSpace\Atcrowdfunding_Parent\Atcrowdfunding_main\src\main\resources\config" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.clc.atcrowdfunding.manager.dao" />
       <recent name="com.clc.atcrowdfunding.manager.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.Atcrowdfunding_Parent [tomcat7:run]">
+  <component name="RunManager" selected="Maven.Atcrowdfunding_main [tomcat7:run]">
+    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.clc.atcrowdfunding.util.MD5Util" />
+      <module name="Atcrowdfunding_common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clc.atcrowdfunding.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MD5Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Atcrowdfunding_common" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MD5Test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,7 +234,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Atcrowdfunding_Parent [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+    <configuration name="Atcrowdfunding_main [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -140,7 +253,7 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Atcrowdfunding_main" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -228,9 +341,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Maven.Atcrowdfunding_Parent [tomcat7:run]" />
+      <item itemvalue="Application.MD5Util" />
+      <item itemvalue="JUnit.MD5Test.test" />
+      <item itemvalue="Maven.Atcrowdfunding_main [tomcat7:run]" />
       <item itemvalue="Tomcat Server.CLC" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MD5Test.test" />
+        <item itemvalue="Application.MD5Util" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration" cleanupOnStartRun="true">
@@ -265,7 +386,16 @@
       <workItem from="1601288753933" duration="1553000" />
       <workItem from="1601291787776" duration="4565000" />
       <workItem from="1601365770325" duration="6232000" />
-      <workItem from="1601378741339" duration="5222000" />
+      <workItem from="1601378741339" duration="5857000" />
+      <workItem from="1601705995058" duration="1376000" />
+      <workItem from="1601806943637" duration="4093000" />
+      <workItem from="1601891068600" duration="1786000" />
+      <workItem from="1601896610885" duration="1952000" />
+      <workItem from="1602061970727" duration="1831000" />
+      <workItem from="1602227673717" duration="679000" />
+      <workItem from="1602308399090" duration="9892000" />
+      <workItem from="1602336010154" duration="3482000" />
+      <workItem from="1602339667643" duration="1031000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1585736663759</created>
@@ -295,40 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1601375059775</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2">
+      <created>1601389589121</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601389589121</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="test_test1 - 2020.03.31 at 19h 52m 00s.xml">
-      <configuration name="test.test1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="mabatisTest_run1 - 2020.03.31 at 20h 31m 20s.xml">
-      <configuration name="mabatisTest.run1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test - 2020.03.31 at 20h 33m 21s.xml">
-      <configuration name="test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="mabatisTest_run1 - 2020.03.31 at 20h 33m 32s.xml">
-      <configuration name="mabatisTest.run1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="mabatisTest_run1 - 2020.03.31 at 20h 34m 25s.xml">
-      <configuration name="mabatisTest.run1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="mabatisTest_run1 - 2020.03.31 at 20h 35m 33s.xml">
-      <configuration name="mabatisTest.run1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="mabatisTest_run1 - 2020.03.31 at 20h 35m 55s.xml">
-      <configuration name="mabatisTest.run1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="mabatisTest_run1 - 2020.03.31 at 20h 36m 06s.xml">
-      <configuration name="mabatisTest.run1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="mabatisTest_run1 - 2020.03.31 at 20h 37m 42s.xml">
-      <configuration name="mabatisTest.run1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="mabatisTest_run1 - 2020.03.31 at 20h 41m 37s.xml">
-      <configuration name="mabatisTest.run1" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,73 +505,87 @@
     <MESSAGE value="first" />
     <MESSAGE value="同步请求登录" />
     <MESSAGE value="异步请求登录" />
-    <option name="LAST_COMMIT_MESSAGE" value="异步请求登录" />
+    <MESSAGE value="2" />
+    <MESSAGE value="regist" />
+    <option name="LAST_COMMIT_MESSAGE" value="regist" />
   </component>
   <component name="WindowStateProjectService">
     <state x="415" y="121" key="#Project_Structure" timestamp="1601289458044">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="415" y="121" key="#Project_Structure/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601289458044" />
-    <state x="391" y="202" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601389251793">
+    <state x="792" y="449" key="#VCS_History_Cache_Settings" timestamp="1601389582683">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="391" y="202" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389251793" />
-    <state x="487" y="180" key="CommitChangelistDialog2" timestamp="1601375371731">
+    <state x="792" y="449" key="#VCS_History_Cache_Settings/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389582683" />
+    <state x="391" y="202" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601389817426">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="487" y="180" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601375371731" />
-    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1601389162821">
+    <state x="391" y="202" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389817426" />
+    <state x="765" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1602326430408">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389162821" />
-    <state width="1333" height="247" key="GridCell.Tab.0.bottom" timestamp="1601389207162">
+    <state x="765" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1602326430408" />
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602339256079">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1333" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389207162" />
-    <state width="1333" height="247" key="GridCell.Tab.0.center" timestamp="1601389207162">
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1602339256079" />
+    <state x="487" y="180" key="CommitChangelistDialog2" timestamp="1602340700128">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1333" height="247" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389207162" />
-    <state width="1333" height="247" key="GridCell.Tab.0.left" timestamp="1601389207161">
+    <state x="487" y="180" key="CommitChangelistDialog2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1602340700128" />
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1602340209633">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1333" height="247" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389207161" />
-    <state width="1333" height="247" key="GridCell.Tab.0.right" timestamp="1601389207162">
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1602340209633" />
+    <state width="1877" height="198" key="GridCell.Tab.0.bottom" timestamp="1602340486773">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1333" height="247" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389207162" />
-    <state width="1333" height="247" key="GridCell.Tab.1.bottom" timestamp="1601389207163">
+    <state width="1877" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1602340486773" />
+    <state width="1877" height="198" key="GridCell.Tab.0.center" timestamp="1602340486773">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1333" height="247" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389207163" />
-    <state width="1333" height="247" key="GridCell.Tab.1.center" timestamp="1601389207163">
+    <state width="1877" height="198" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1602340486773" />
+    <state width="1877" height="198" key="GridCell.Tab.0.left" timestamp="1602340486773">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1333" height="247" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389207163" />
-    <state width="1333" height="247" key="GridCell.Tab.1.left" timestamp="1601389207162">
+    <state width="1877" height="198" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1602340486773" />
+    <state width="1877" height="198" key="GridCell.Tab.0.right" timestamp="1602340486773">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1333" height="247" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389207162" />
-    <state width="1333" height="247" key="GridCell.Tab.1.right" timestamp="1601389207163">
+    <state width="1877" height="198" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1602340486773" />
+    <state width="1333" height="247" key="GridCell.Tab.1.bottom" timestamp="1601389919331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1333" height="247" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389207163" />
-    <state width="1333" height="247" key="GridCell.Tab.2.bottom" timestamp="1601389207163">
+    <state width="1333" height="247" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389919331" />
+    <state width="1333" height="247" key="GridCell.Tab.1.center" timestamp="1601389919330">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1333" height="247" key="GridCell.Tab.2.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389207163" />
-    <state width="1333" height="247" key="GridCell.Tab.2.center" timestamp="1601389207163">
+    <state width="1333" height="247" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389919330" />
+    <state width="1333" height="247" key="GridCell.Tab.1.left" timestamp="1601389919330">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1333" height="247" key="GridCell.Tab.2.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389207163" />
-    <state width="1333" height="247" key="GridCell.Tab.2.left" timestamp="1601389207163">
+    <state width="1333" height="247" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389919330" />
+    <state width="1333" height="247" key="GridCell.Tab.1.right" timestamp="1601389919330">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1333" height="247" key="GridCell.Tab.2.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389207163" />
-    <state width="1333" height="247" key="GridCell.Tab.2.right" timestamp="1601389207163">
+    <state width="1333" height="247" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389919330" />
+    <state width="1333" height="247" key="GridCell.Tab.2.bottom" timestamp="1601389919331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1333" height="247" key="GridCell.Tab.2.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389207163" />
+    <state width="1333" height="247" key="GridCell.Tab.2.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389919331" />
+    <state width="1333" height="247" key="GridCell.Tab.2.center" timestamp="1601389919331">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1333" height="247" key="GridCell.Tab.2.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389919331" />
+    <state width="1333" height="247" key="GridCell.Tab.2.left" timestamp="1601389919331">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1333" height="247" key="GridCell.Tab.2.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389919331" />
+    <state width="1333" height="247" key="GridCell.Tab.2.right" timestamp="1601389919331">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1333" height="247" key="GridCell.Tab.2.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601389919331" />
     <state width="1333" height="247" key="GridCell.Tab.3.bottom" timestamp="1601378641071">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -495,6 +614,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1601375393367" />
+    <state x="759" y="317" key="chooseDestDirectoryDialog" timestamp="1602326626903">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="759" y="317" key="chooseDestDirectoryDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1602326626903" />
     <state x="763" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601378597899">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

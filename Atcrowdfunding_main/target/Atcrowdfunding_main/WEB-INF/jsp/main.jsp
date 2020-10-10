@@ -179,7 +179,9 @@ Created by IntelliJ IDEA.
         });
     });
 
-    function ()
+    function loginout() {
+
+    }
 </script>
 </body>
 </html>
